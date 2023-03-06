@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SunVault</title>
+    <style>
+      /* Define styles for the header */
+      header {
+        background-color: white;
+        color: green;
+        padding: 10px;
+        text-align: center; /* Center the header text */
+        font-family: 'Trebuchet MS', sans-serif;
+        padding-left: 15px;
+      }
+
+      /* Define styles for the menu buttons */
+      .menu-button {
+        background-color: white;
+        color: green;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        font-family: 'Trebuchet MS', sans-serif;
+      }
+
+      /* Define styles for the main content */
+      .main-content {
+        padding: 20px 20px 60px 20px;
+        font-family: 'Trebuchet MS', sans-serif;
+        float: left; /* Keep the main content on the left */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SunVault</h1>
+      <div>
+        <a href="index.html" class="menu-button">Home</a>
+        <a href="what-is-solar.html" class="menu-button">What is Solar Energy?</a>
+        <a href="advantages-of-solar.html" class="menu-button">Advantages of Solar</a>
+        <a href="solar-facts.html" class="menu-button">Solar Energy Facts</a>
+        <a href="calculator.html" class="menu-button">Output Calculator</a>
+      </div>
+    </header>
+    <div class="main-content">
+	<p>Enter the area of your solar panel in square meters:</p>
+	<input type="number" id="area" min="0">
+	<button onclick="calculate()">Calculate</button>
+	<p>Estimated energy output on a clear day: <span id="output1"></span> kWh</p>
+	<p>Estimated energy output on a cloudy day: <span id="output2"></span> kWh</p>
+	<script src="calc.js"></script>
+<p> (This only provides an estimate, as Performance Ratio is assumed to be 0.75, efficiency 20% and irradiance: 1000W/m2 on clear day and 500W/m2 on cloudy day)<p>
+    </div>
+  </body>
+</html>
