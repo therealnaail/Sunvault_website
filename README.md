@@ -1,2 +1,2 @@
 # therealnaail.github.io
-Static HTML and CSS website about my GCSE Design & Technology NEA Project. Displays information about solar energy and link to GUI app in addition to some infographics about how solar panels work. Aims to increase awareness of renewables.
+Static HTML and CSS website about my GCSE Design & Technology NEA Project. Displays information about solar energy and link to GUI app in addition to some infographics about how solar panels work. Aims to increase awareness of renewables. JavaScript web app inputs the area of a solar panel (m2), calculates and outputs estimated energy output (kWh) and cost savings (GBP) on a clear day and a cloudy day.
